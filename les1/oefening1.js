@@ -1,0 +1,1 @@
+alert("Hallo gast, welkom op de site");
