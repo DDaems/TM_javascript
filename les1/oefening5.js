@@ -12,5 +12,7 @@ if(Number.isNaN(getal1) && Number.isNaN(getal2)){
     alert("1 van de getallen was niet geldig!");
 }else{
     let som = getal1+getal2;
-    alert("De som van " + getal1 + " + " + getal2 + " is " + som); 
+    let som2 = getal1-getal2;
+    alert("De som van " + getal1 + " + " + getal2 + " is " + som + "\n" +
+    "Het verschil van " + getal1 + " + " + getal2 + " is " + som2); 
 }
