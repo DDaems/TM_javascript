@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Javascript - Oefeningen</title>
-    <script src="oefening6.js"></script>
   
     
 </head>
 <body>
-Open de browser console via CTRL + SHIFT + I<br />
-om de output te bekijken.
+
+<button onclick="document.getElementById('msg').innerHTML =
+    'U gebruik: ' + window.navigator.appName 
+    + ', Versie: ' + window.navigator.appVersion; 
+" >Knop</button>
+
+<div id="msg"></div>
 </body>
 </html>
