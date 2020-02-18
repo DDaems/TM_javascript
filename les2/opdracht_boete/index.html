@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les 2:Oefening boete</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Bereken boete</h1>
+
+        <div class="row">
+            <div class="col-md-12">
+
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="snelheid">Snelheid</label>
+                            <input type="number" class="form-control" id="snelheid" placeholder="Geef je snelheid in.">
+                        </div>
+
+                        <div class="form-group col-md-6">
+                            <label for="snelheidToegelaten">Toegelaten snelheid</label>
+                            <input type="number" class="form-control" id="snelheidToegelaten" placeholder="Geef de toegelaten snelheid in.">
+                        </div>
+                    </div>
+
+                    <button type="Button" id="schrijfBoete" class="btn btn-primary">Schrijf boete</button>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <div id="resultaat"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
